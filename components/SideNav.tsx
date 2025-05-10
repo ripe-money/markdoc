@@ -4,8 +4,16 @@ import Link from 'next/link';
 
 const items = [
   {
-    title: 'Get started',
-    links: [{href: '/docs', children: 'Overview'}],
+    title: 'Ripe',
+    links: [
+      {href: '/docs/qr-decoding-engine', children: 'QR Decoding Engine'},
+      {href: '/docs/token-whitelist', children: 'Token Whitelist'},
+      {href: '/docs/beneficiarys-wallet-system', children: `Beneficiary's Wallet System`},
+      {href: '/docs/currency-conversion', children: 'Currency Conversion'},
+      {href: '/docs/on-chain-payment', children: 'On-chain Payment'},
+      {href: '/docs/fiat-payout', children: 'Fiat Payout'},
+      {href: '/docs/aml-and-compliance', children: 'AML & Compliance'},
+    ],
   },
 ];
 
